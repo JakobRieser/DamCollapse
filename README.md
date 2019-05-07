@@ -4,7 +4,7 @@ On November 5, 2015, two dams collapsed in southeastern Brazil, sending a torren
 
 The Wall Street Journal reported that 60 million cubic meters of wastewater were unleashed, with most of it affecting Bento Rodrigues. The village is located close to the breach, and sits in a river valley just below one of the dams.
 
-The effects of the flooding were felt far beyond Bento Rodrigues. Multiple rivers, far from the village, remained swollen with wastewater and mud. East of this image, in Barra Longa—a village about 80 kilometers (50 miles) from the dams—the river surged as much as 15 meters and flooded homes. As health officials conducted tests, cities as far as 300 kilometers (200 miles) downstream lost access to drinking water, which is equal to 250,000 people.
+The effects of the flooding were felt far beyond Bento Rodrigues. Multiple rivers, far from the village, remained swollen with wastewater and mud. East of this image, in Barra Longa — a village about 80 kilometers (50 miles) from the dams—the river surged as much as 15 meters and flooded homes. As health officials conducted tests, cities as far as 300 kilometers (200 miles) downstream lost access to drinking water, which is equal to 250,000 people.
 
 https://earthobservatory.nasa.gov/images/86990/flooding-in-brazil-after-dam-breach
 
