@@ -1,8 +1,14 @@
-
 ########################################################################################################################################################
 ############################# Computing Indices ########################################################################################################
 ########################################################################################################################################################
 
+
+#A total of five indices are computed to support the classification algorithm. 
+#NDWI is the Normalized Difference Water Index
+#NDVI is the Normalized Difference Vegetation Index
+#NDBI is the Normalized Difference Biult-up Index
+#BU is the Build-up Index  (NDBI - NDVI)
+#NDBaI is the Normalized Difference Bare Soil Index
 
 ####################### NDWI ####################### 
 
@@ -70,5 +76,3 @@ names(SA_20151011_Indices) <- c(Landsat8_band_names, "NDWI", "NDVI", "NDBI", "BU
 names(SA_20151112_Indices) <- c(Landsat8_band_names, "NDWI", "NDVI", "NDBI", "BU", "NDBaI")
 names(SA_20190114_Indices) <- c(Landsat8_band_names, "NDWI", "NDVI", "NDBI", "BU", "NDBaI")
 names(SA_20190130_Indices) <- c(Landsat8_band_names, "NDWI", "NDVI", "NDBI", "BU", "NDBaI")
-
-

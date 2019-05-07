@@ -3,7 +3,7 @@
 ########################################################################################################################################################
 
 
-################### For municipality Mariana ###################
+################### For municipality Mariana (2015) ###################
 
 #All osmdata queries begin with a bounding box/in this case bounding polygon defining the area of the query
 #The getbb() function can be used to extract bounding boxes for specified place names
@@ -31,7 +31,7 @@ summary(Mariana_Buidings_Highways)
 plot(Mariana_Buidings_Highways$osm_polygons)
 
 
-################### For municipality Barra Longa ###################
+################### For municipality Barra Longa (2015) ###################
 
 BarraLonga <- getbb ("Barra Longa", format_out = "polygon")
 class (BarraLonga); head (BarraLonga [[1]])
@@ -51,7 +51,7 @@ BarraLonga_Buildings_Highways
 summary(BarraLonga_Buildings_Highways)
 
 
-################### For municipality Brumadinho ###################
+################### For municipality Brumadinho (2019) ###################
 
 Brumadinho <- getbb ("Brumadinho", format_out = "polygon")
 class (Brumadinho); head (Brumadinho [[1]])
@@ -69,4 +69,5 @@ Brumadinho_Highways
 Brumadinho_Buildings_Highways <- c(Brumadinho_Buildings, Brumadinho_Highways)
 Brumadinho_Buildings_Highways
 summary(Brumadinho_Buildings_Highways)
+
 

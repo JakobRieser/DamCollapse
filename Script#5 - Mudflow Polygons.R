@@ -1,3 +1,7 @@
+################### Calculate Mudflow extent ################### 
+
+#at the end, we want to have shapefiles of the mudflow of 2015 and 2019
+
 #create the polygon that shows the extent of the mudflow
 Mudflow_2015 <- rasterToPolygons(Classification_20151112, fun=function(Classification_20151112){Classification_20151112==4}, n=4, na.rm=TRUE, digits=12, dissolve=TRUE)
 Mudflow_2019 <- rasterToPolygons(Classification_20190130, fun=function(Classification_20190130){Classification_20190130==4}, n=4, na.rm=TRUE, digits=12, dissolve=TRUE)
