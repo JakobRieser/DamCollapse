@@ -18,4 +18,4 @@ https://earthobservatory.nasa.gov/images/144501/another-deadly-dam-collapse-in-b
 
 
 
-These R-Scripts focus on the remote sensing based assessment of the affected areas, that were covered in mud and polluted by the wastewater.
+These R-Scripts focus on the remote sensing based assessment of the affected areas, that were covered in mud and polluted by the wastewater. They show a way to quickly map the extent of the mudflow with medium resolution Landsat8 imagery, which then allows to find out, which areas, roads and houses are damaged/destroyed. 
