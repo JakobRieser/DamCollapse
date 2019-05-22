@@ -80,10 +80,10 @@ datasets2019 <- getLandsat_data(records = records2019[c(3,4), ], level="l1")
 ####################### preparing the landsat scenes ####################### 
 
 #load the original downloaded landsat 8 scenes via addressing the metadatafile (*MTL.txt):
-meta_20151011 <- readMeta("Landsat/get_data/LANDSAT/L1/LC08_L1TP_217074_20151011_20170403_01_T1_L1/LC08_L1TP_217074_20151011_20170403_01_T1_MTL.txt")
-meta_20151112 <- readMeta("Landsat/get_data/LANDSAT/L1/LC08_L1TP_217074_20151112_20170402_01_T1_L1/LC08_L1TP_217074_20151112_20170402_01_T1_MTL.txt")
-meta_20190114 <- readMeta("Landsat/get_data/LANDSAT/L1/LC08_L1TP_218074_20190114_20190131_01_T1_L1/LC08_L1TP_218074_20190114_20190131_01_T1_MTL.txt")
-meta_20190130 <- readMeta("Landsat/get_data/LANDSAT/L1/LC08_L1TP_218074_20190130_20190206_01_T1_L1/LC08_L1TP_218074_20190130_20190206_01_T1_MTL.txt")
+meta_20151011 <- readMeta("Originals/LC08_20151011/LC08_L1TP_217074_20151011_20170403_01_T1_MTL.txt")
+meta_20151112 <- readMeta("Originals/LC08_20151112/LC08_L1TP_217074_20151112_20170402_01_T1_MTL.txt")
+meta_20190114 <- readMeta("Originals/LC08_20190114/LC08_L1TP_218074_20190114_20190131_01_T1_MTL.txt")
+meta_20190130 <- readMeta("Originals/LC08_20190130/LC08_L1TP_218074_20190130_20190206_01_T1_MTL.txt")
 
 #look at the structure and content of the data:
 meta_20151011
